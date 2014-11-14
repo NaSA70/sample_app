@@ -4,19 +4,21 @@ ruby '2.1.4'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.7'
 gem 'bootstrap-sass', '>= 3.3.0'
+gem 'bcrypt-ruby', '>=3.1.2'
+
 # Use sqlite3 as the database for Active Record
 group :development, :test do
   gem 'sqlite3', '1.3.10'
-  gem 'rspec-rails', '2.13.1'
-  gem 'guard-rspec', '2.5.0'
-  gem 'spork-rails', '4.0.0'
-  gem 'guard-spork', '1.5.0'
-  gem 'childprocess', '0.3.6'
+  gem 'rspec-rails', '>=2.13.1'
+  gem 'guard-rspec', '>=2.5.0'
+  gem 'spork-rails', '>=4.0.0'
+  gem 'guard-spork', '>=1.5.0'
+  gem 'childprocess', '>=0.3.6'
 end
 
 group :test do
-  gem 'selenium-webdriver', '2.35.1'
-  gem 'capybara', '2.1.0'
+  gem 'selenium-webdriver', '>=2.35.1'
+  gem 'capybara', '>=2.1.0'
   # Linux: раскомментируйте эти строки.
   gem 'libnotify', '0.8.0'
 end
