@@ -20,6 +20,7 @@ group :test do
   gem 'selenium-webdriver', '>=2.35.1'
   gem 'capybara', '>=2.1.0'
   gem 'cucumber-rails', '>=1.2.1', :require => false
+  gem 'factory_girl_rails', '~> 4.5.0'
   # Linux: раскомментируйте эти строки.
   gem 'libnotify', '0.8.0'
 end
